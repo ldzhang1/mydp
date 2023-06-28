@@ -111,11 +111,15 @@ class HmDianPingApplicationTests {
 
     @Test
     void testHyperLogLog() {
+        // 准备数组，装用户
         String[] values = new String[1000];
+        // 数组角标
         int j = 0;
         for (int i = 0; i < 1000000; i++) {
+            // 赋值
             j = i % 1000;
             values[j] = "user_" + i;
+            // 没1000条发送一次
             if(j == 999){
                 // 发送到Redis
                 stringRedisTemplate.opsForHyperLogLog().add("hl2", values);
