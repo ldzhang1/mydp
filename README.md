@@ -32,6 +32,7 @@
 ### 1.配置数据库
 ·使用mysql运行 src/main/resources/db/hmdp.sql 下的sql文件，建立表和导入数据
 ·修改配置文件 src/main/resources/application.yaml 中的mysql数据库和redis配置
+
 ![image](https://github.com/ldzhang1/my-hm-dianping/assets/104254485/44057718-d14d-4516-a320-186d141769c3)
 
 ### 2.启动后端
