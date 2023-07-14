@@ -1,4 +1,4 @@
-# my-hm-dianping
+# my-dianping
 ## 一、项目介绍
 本项目为redis练习项目，仿大众点评。
 
